@@ -1,6 +1,8 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import Instructor from "@/components/Instructor";
 import TestimonialCard from "@/components/TestimonialCard";
+import UpcommingWebiner from "@/components/UpcommingWebiner";
 import WhyChooseUs from "@/components/WhyChooseUs";
 // import Image from "next/image";
 
@@ -13,6 +15,8 @@ export default function Home() {
       <FeaturedCourses />
       <WhyChooseUs />
       <TestimonialCard />
+      <UpcommingWebiner />
+      <Instructor />
     </main>
   );
 }
